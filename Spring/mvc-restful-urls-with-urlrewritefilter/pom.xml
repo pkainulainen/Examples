@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.petrikainulainen</groupId>
-    <artifactId>spring-mvc-restful-urls</artifactId>
+    <artifactId>mvc-restful-urls-with-urlrewritefilter</artifactId>
     <packaging>war</packaging>
     <version>0.1</version>
     <name>Spring MVC Restful Url Example Application</name>
