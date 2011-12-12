@@ -16,7 +16,10 @@
         <from>^/(.*)</from>
         <to last="true">/app/$1</to>
     </rule>
-    <!-- Removes the /app/ prefix from href of links. -->
+    <!--
+        Removes the /app/ prefix from href of links. NOTE:
+        This only works if you use the jstl url tag or spring url tag.
+     -->
     <outbound-rule>
         <from>/app/**</from>
         <to>/$1</to>

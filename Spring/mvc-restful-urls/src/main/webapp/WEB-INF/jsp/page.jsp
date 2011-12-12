@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
     <title>Spring MVC Restful Url Example Application - Page</title>
@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Page</h1>
-    <c:url value="/app/home" var="homeUrl"/>
+    <!-- When the page is rendered to browser, this links points to '/home' -->
+    <spring:url value="/app/home" var="homeUrl"/>
     <p><a href="${homeUrl}">Return to the home page</a>.</p>
 </body>
 </html>

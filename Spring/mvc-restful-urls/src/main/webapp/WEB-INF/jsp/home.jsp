@@ -8,6 +8,7 @@
 <body>
     <h1>Home</h1>
     <p>
+        <!-- When the page is rendered to browser, this links points to '/page' -->
         <c:url value="/app/page" var="pageUrl"/>
         <a href="${pageUrl}">Move to an another page</a>.
     </p>
