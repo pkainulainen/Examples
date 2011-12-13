@@ -6,7 +6,7 @@
     <packaging>war</packaging>
     <version>0.1</version>
     <name>Spring MVC Restful Urls</name>
-    <description>Spring MVC Restful Url Example Application</description>
+    <description>Spring MVC RESTful Urls Example Application</description>
     <licenses>
         <license>
             <name>Apache License 2.0</name>

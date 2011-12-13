@@ -10,6 +10,8 @@ import javax.servlet.*;
 import java.util.EnumSet;
 
 /**
+ * Web application Java configuration class. The usage of web application
+ * initializer requires Spring Framework 3.1 and Servlet 3.0.
  * @author Petri Kainulainen
  */
 public class RestfulInitializer implements WebApplicationInitializer {

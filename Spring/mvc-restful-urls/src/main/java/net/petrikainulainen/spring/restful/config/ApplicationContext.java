@@ -10,6 +10,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 /**
+ * An application context Java configuration class. The usage of Java configuration
+ * requires Spring Framework 3.0 or higher with following exceptions:
+ * <ul>
+ *     <li>@EnableWebMvc annotation requires Spring Framework 3.1</li>
+ * </ul>
  * @author Petri Kainulainen
  */
 @Configuration
