@@ -12,7 +12,7 @@ public class HomeController {
 
     protected static final String HOME_VIEW = "home";
 
-    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String showPage() {
         return HOME_VIEW;
     }

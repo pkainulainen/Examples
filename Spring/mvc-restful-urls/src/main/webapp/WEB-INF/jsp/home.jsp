@@ -8,7 +8,6 @@
 <body>
     <h1>Home</h1>
     <p>
-        <!-- When the page is rendered to browser, this links points to '/page' -->
         <a href="/page">Move to an another page</a>.
     </p>
 </body>
