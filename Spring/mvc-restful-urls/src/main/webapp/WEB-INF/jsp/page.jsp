@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Page</h1>
-    <p><a href="/home">Return to the home page</a>.</p>
+    <p><a href="/">Return to the home page</a>.</p>
 </body>
 </html>
