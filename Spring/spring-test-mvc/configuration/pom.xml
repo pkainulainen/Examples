@@ -144,9 +144,6 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.1.1</version>
                 <configuration>
-                    <warName>Sihti</warName>
-                    <containerConfigXML>/development/tools/Java/apache-tomcat-7.0.23/conf/context.xml
-                    </containerConfigXML>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
