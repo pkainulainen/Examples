@@ -8,6 +8,6 @@ RUNNING THE APPLICATION
 - Configure the input and output directories found from application.properties file.
 - Run command mvn clean assembly:assembly
 - Go to the target directory
-- Unzip the chapter-07-standalone-hadoop-job.zip to the preferred directory
+- Unzip the mapreduce.zip to the preferred directory
 - Go to that directory
 - Run the startup script (startup.bat or startup.sh)
