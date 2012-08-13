@@ -1,0 +1,13 @@
+RUNNING THE APPLICATION
+
+- Install Java (http://java.sun.com)
+- Download and install Maven 3 (http://maven.apache.org/download.html#Installation). If you
+  have already installed Maven 3, you can skip this step.
+- Go to the root directory of project (The one which contains the pom.xml file)
+- Create input directory and move the files found from etc directory to that directory.
+- Configure the input and output directories found from application.properties file.
+- Run command mvn clean assembly:assembly
+- Go to the target directory
+- Unzip the chapter-07-standalone-hadoop-job.zip to the preferred directory
+- Go to that directory
+- Run the startup script (startup.bat or startup.sh)
