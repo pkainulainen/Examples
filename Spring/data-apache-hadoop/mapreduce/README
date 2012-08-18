@@ -1,10 +1,20 @@
+This is the example application of my blog entry:
+
+Creating Hadoop MapReduce Jobs with Spring Data Apache Hadoop
+
+You might also want to read:
+
+Install and Configure Apache Hadoop to Run in a Pseudo-Distributed Mode
+http://www.petrikainulainen.net/programming/apache-hadoop/install-and-configure-apache-hadoop-to-run-in-a-pseudo-distributed-mode/
+
 RUNNING THE APPLICATION
 
 - Install Java (http://java.sun.com)
 - Download and install Maven 3 (http://maven.apache.org/download.html#Installation). If you
   have already installed Maven 3, you can skip this step.
+- Install Apache Hadoop and Configure it to run in pseudo-distributed model.
 - Go to the root directory of project (The one which contains the pom.xml file)
-- Create input directory and move the files found from etc directory to that directory.
+- Create the input directory to HDFS and move the files found from etc directory to that directory.
 - Configure the input and output directories found from application.properties file.
 - Run command mvn clean assembly:assembly
 - Go to the target directory

@@ -9,7 +9,7 @@
     <!-- Configures the properties file. -->
     <context:property-placeholder location="classpath:application.properties" />
 
-    <!-- Configures Apache Hadoop FS / JobTracker -->
+    <!-- Configures Apache Hadoop -->
     <hdp:configuration>
         fs.default.name=${fs.default.name}
     </hdp:configuration>
