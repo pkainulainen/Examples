@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:hdp="http://www.springframework.org/schema/hadoop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/hadoop http://www.springframework.org/schema/hadoop/spring-hadoop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <!-- Configures the properties file. -->
+    <context:property-placeholder location="classpath:application.properties" />
+
+    <!-- Configures Apache Hadoop FS / JobTracker -->
+    <hdp:configuration>
+        fs.default.name=${fs.default.name}
+    </hdp:configuration>
+
+    <!-- Configures the streaming word count job. -->
+    <hdp:streaming id="streamingJob"
+             input-path="${input.path}"
+             output-path="${output.path}"
+             mapper="${mapper.script.path}"
+             reducer="${reducer.script.path}"/>
+
+    <!-- Configures the job runner that runs the Hadoop jobs. -->
+    <bean class="org.springframework.data.hadoop.mapreduce.JobRunner">
+        <property name="jobs">
+            <list>
+                <!-- Configures the references to the actual Hadoop jobs. -->
+                <ref bean="streamingJob"/>
+            </list>
+        </property>
+    </bean>
+</beans>
