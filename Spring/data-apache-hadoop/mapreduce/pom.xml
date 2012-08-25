@@ -9,6 +9,12 @@
     <description>
         A simple Hadoop MapReduce job that was created by using Spring Data Apache Hadoop.
     </description>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
     <properties>
         <apache.hadoop.version>1.0.3</apache.hadoop.version>
         <slf4j.version>1.6.1</slf4j.version>
