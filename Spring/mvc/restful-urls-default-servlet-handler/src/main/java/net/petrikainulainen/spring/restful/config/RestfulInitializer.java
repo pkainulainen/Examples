@@ -4,10 +4,8 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
-import org.tuckey.web.filters.urlrewrite.UrlRewriteFilter;
 
 import javax.servlet.*;
-import java.util.EnumSet;
 
 /**
  * Web application Java configuration class. The usage of web application
