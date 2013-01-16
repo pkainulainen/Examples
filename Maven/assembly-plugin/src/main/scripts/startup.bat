@@ -1,1 +1,0 @@
-java -jar maven-assembly-plugin.jar
