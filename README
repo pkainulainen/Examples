@@ -1,2 +1,7 @@
 This repository contains the code examples of the blog entries of my blog.
 My blog can be found from http://www.petrikainulainen.net.
+
+NOTE:
+
+The Maven examples are moved to a new repository which is found at
+https://github.com/pkainulainen/maven-examples
