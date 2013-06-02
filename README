@@ -3,11 +3,14 @@ My blog can be found from http://www.petrikainulainen.net.
 
 NOTE:
 
-The Maven examples are moved to a new repository which is found at
+Maven examples are moved to a new repository which is found at
 https://github.com/pkainulainen/maven-examples
 
-The Spring Data Apache Hadoop examples are moved to a new repository which is found at
+Spring Data Apache Hadoop examples are moved to a new repository which is found at
 https://github.com/pkainulainen/spring-data-apache-hadoop-examples
 
-The Spring MVC Test examples are moved to new repository which is found at
+Spring Data JPA examples are moved to a repository which is found at
+https://github.com/pkainulainen/spring-data-jpa-examples
+
+Spring MVC Test examples are moved to new repository which is found at
 https://github.com/pkainulainen/spring-mvc-test-examples
